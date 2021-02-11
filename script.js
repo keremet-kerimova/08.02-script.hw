@@ -2,20 +2,20 @@ let inp2 = document.querySelector('#password');
 let p = document.querySelector('.p');
 
 
-in2.addEventListener('input', function(even){
+inp2.addEventListener('input', function(even){
     if (inp2.value.length == 0){
         p.innerText = 'Enter password';
     }
-    else if (inp2.value.length  > 0) {
+    else if (inp2.value.length  < 0) {
        p.innerText = 'Weakly';
     }
-    if (inp2.value.length >= 6){
+    if (inp2.value.length < 6){
         p.innerText = 'Good';
     }
-    if (inp2.value.length >= 10){
+    else if (inp2.value.length < 10){
         p.innerText = 'Very good';
     }
-})
+});
 
 
 
