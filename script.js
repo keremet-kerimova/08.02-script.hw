@@ -1,19 +1,19 @@
-let in2 = document.querySelector('#password');
+let inp2 = document.querySelector('#password');
 let p = document.querySelector('.p');
 
 
 in2.addEventListener('input', function(even){
-    if (in2.value.length == 0){
-        p.innerText = ' Ввыведите пароль';
+    if (inp2.value.length == 0){
+        p.innerText = 'Enter password';
     }
-    else if (in2.value.length  > 0) {
-       p.innerText = 'weakly';
+    else if (inp2.value.length  > 0) {
+       p.innerText = 'Weakly';
     }
-    if (in2.value.length >= 6){
+    if (inp2.value.length >= 6){
         p.innerText = 'Good';
     }
-    if (in2.value.length >= 10){
-        p.innerText = ' Very good';
+    if (inp2.value.length >= 10){
+        p.innerText = 'Very good';
     }
 })
 
