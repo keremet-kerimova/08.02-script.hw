@@ -1,5 +1,5 @@
 let in2 = document.querySelector('#password');
-let p = document.querySelector('p');
+let p = document.querySelector('.p');
 
 
 in2.addEventListener('input', function(even){
