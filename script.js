@@ -3,7 +3,7 @@ let p = document.querySelector('.p');
 
 
 in2.addEventListener('input', function(even){
-    if (in2.nodeValue.length == 0){
+    if (in2.value.length == 0){
         p.innerText = ' Ввыведите пароль';
     }
     else if (in2.value.length  > 0) {
