@@ -24,6 +24,12 @@ let button = document.querySelector('#number2');
 let p2 = document.querySelector('#p2');
 
 
+let dice = (Math.random () * 6) + 1;
+button.addEventListener('click',function (event){
+     
+})
+
+
 
 
 
