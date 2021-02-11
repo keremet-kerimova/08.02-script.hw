@@ -19,6 +19,16 @@ inp2.addEventListener('input', function(even){
 
 
 
+let input2 = document.querySelector('#number');
+let button = document.querySelector('#number2');
+let p2 = document.querySelector('#p2');
+
+
+
+
+
+
+
 // fullName.addEventListener('change', function(event) { // при нажатии на клавищу
 //     console.log('change');
 //     //    if (event.code.match(/Key/) && !event.key.match(/[а-яА-Я]/)) {
