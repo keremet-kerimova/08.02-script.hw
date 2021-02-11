@@ -36,7 +36,9 @@ button.addEventListener('click',function (event){
     
 });
 
-let input3 = document.querySelector('#')
+let input3 = document.querySelector('#number2');
+let input4 = document.querySelector('#number3');
+let btn2 = document.querySelector('#btn2')
 
 
 
