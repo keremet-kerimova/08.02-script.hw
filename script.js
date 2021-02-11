@@ -26,8 +26,14 @@ let p2 = document.querySelector('#p2');
 
 let dice = (Math.random () * 6) + 1;
 button.addEventListener('click',function (event){
-     
-})
+     if (input2 == dice){
+         p2.innerText = 'You win ! Number is ' + dice;
+     }
+     else if (input2 !=dice){
+         p2.innerText = 'You won ! Number is ' + dice;
+     }
+    
+});
 
 
 
