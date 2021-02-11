@@ -6,7 +6,7 @@ inp2.addEventListener('input', function(even){
     if (inp2.value.length == 0){
         p.innerText = 'Enter password';
     }
-    else if (inp2.value.length  < 0) {
+    if (inp2.value.length  < 0) {
        p.innerText = 'Weakly';
     }
     if (inp2.value.length < 6){
