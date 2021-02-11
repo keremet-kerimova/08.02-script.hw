@@ -6,6 +6,15 @@ in2.addEventListener('input', function(even){
     if (in2.nodeValue.length == 0){
         p.innerText = ' Ввыведите пароль';
     }
+    else if (in2.value.length  > 0) {
+       p.innerText = 'weakly';
+    }
+    if (in2.value.length >= 6){
+        p.innerText = 'Good';
+    }
+    if (in2.value.length >= 10){
+        p.innerText = ' Very good';
+    }
 })
 
 
