@@ -38,7 +38,20 @@ button.addEventListener('click',function (event){
 
 let input3 = document.querySelector('#number2');
 let input4 = document.querySelector('#number3');
-let btn2 = document.querySelector('#btn2')
+let btn2 = document.querySelector('#btn2');
+let btn3 = document.querySelector('#btn3');
+let p3 = document.querySelector('#p3');
+let p4 = document.querySelector('#p4');
+
+
+btn2.addEventListener('click', function(){
+    let plus = input3.value + input4.value
+    p4.innerText = plus;
+    btn2.style.backgroundColor = "yellow"
+});
+
+
+
 
 
 
