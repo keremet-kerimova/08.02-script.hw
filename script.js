@@ -36,6 +36,8 @@ button.addEventListener('click',function (event){
     
 });
 
+let input3 = document.querySelector('#')
+
 
 
 
